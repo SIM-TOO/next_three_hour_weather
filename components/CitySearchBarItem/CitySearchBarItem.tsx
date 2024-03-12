@@ -1,5 +1,5 @@
 import { WeatherDbData } from '@/models/weatherDbData'
-import { useChoseCity } from '@/store/useChosenCity';
+import { useChosenCity } from '@/store/useChosenCity';
 import React from 'react'
 
 interface ICitySearchBarItemProps {
@@ -10,7 +10,7 @@ interface ICitySearchBarItemProps {
 
 
 const CitySearchBarItem = ({ city, onClick, noResultText }: ICitySearchBarItemProps) => {
-  const { setChosenCity } = useChoseCity();
+  const { setChosenCity } = useChosenCity();
   return (
     <div
       onClick={() => {

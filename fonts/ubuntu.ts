@@ -1,5 +1,5 @@
 
-import { Ubuntu } from "next/font/google";
+import { Ubuntu } from 'next/font/google';
 
 export const ubuntuBold = Ubuntu({
     subsets: ['latin'],

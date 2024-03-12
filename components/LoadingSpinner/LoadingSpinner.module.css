@@ -6,7 +6,7 @@
 
 .loader::before,
 .loader::after {
-    content: "";
+    content: '';
     border: 5px solid var(--sky-color);
     box-sizing: border-box;
     inset: 0px;

@@ -73,16 +73,16 @@ const CitySearchBar = () => {
                 key={city.id}
                 onClick={() => {
                   setIsShowingSearchResults(false);
-                  setSearch("");
+                  setSearch('');
                 }}
               />
             ))
           ) : (
             <CitySearchBarItem
-              noResultText="No results"
+              noResultText='No results'
               onClick={() => {
                 setIsShowingSearchResults(false);
-                setSearch("");
+                setSearch('');
               }}
             />
           )}

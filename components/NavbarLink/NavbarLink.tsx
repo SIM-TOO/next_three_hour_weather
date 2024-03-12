@@ -1,5 +1,5 @@
 'use client'
-import { ubuntuBold } from '@/fonts/ubunfu';
+import { ubuntuBold } from '@/fonts/ubuntu';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react'
