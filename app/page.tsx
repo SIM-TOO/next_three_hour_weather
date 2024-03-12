@@ -12,11 +12,11 @@ export default function Home() {
           <Link href={'/'} className='self-center header__title w-fit h-fit'>
             <h2 className='title__text w-fit h-fit'>
               <span className={`title__bule text-[1.7rem] text-[var(--sky-color)] ${ubuntuBold.className}`}>
-                날씨
+                weather
               </span>
-              {" +"}
+              {" "}
               <span className={`title__black text-[1.7rem] text-black ${ubuntuBold.className}`}>
-                앱
+                webapp
               </span>
             </h2>
           </Link>
