@@ -1,5 +1,5 @@
-import { WeatherDbData } from '@/models/weatherDbData';
-import { create } from 'zustand';
+import { WeatherDbData } from "@/models/weatherDbData";
+import { create } from "zustand";
 
 export interface ChosenCityState {
     chosenCity: WeatherDbData;
@@ -9,7 +9,7 @@ export interface ChosenCityState {
 export const useChosenCity = create<ChosenCityState>((set) => ({
     chosenCity: {
         id: 0,
-        name: '',
+        name: "",
         coord: {
             lat: 0,
             lon: 0
